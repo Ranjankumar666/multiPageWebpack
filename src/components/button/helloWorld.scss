@@ -1,0 +1,14 @@
+$btn-color: #999;
+
+.btn{
+  color: $btn-color;
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:active, .btn:focus{
+  border: none;
+  outline: none;
+}
